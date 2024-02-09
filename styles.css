@@ -1,0 +1,31 @@
+body {
+margin: 0px;
+font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    color: white;
+    height: 50px;
+    align-items: center;
+}
+
+.header-logo {
+    font-weight: bold;
+    font-size: larger;
+}
+
+ul#header-menu {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
