@@ -78,7 +78,7 @@ ul#header-menu {
 
 #features {
     background-color: white;
-    padding: 32px 0;
+    padding: 64px 0;
 }
 
 .container-features {
@@ -118,10 +118,42 @@ ul#header-menu {
     border-radius: 4px;
 }
 
+#testimonial {
+    background-color: #E5E7EB;
+    padding: 64px 0;
+}
+
+.container-testimonial {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container-testimonial #quote {
+    max-width:512px;
+}
+
+
+.container-testimonial #author {
+    max-width: 512px;
+    text-align: right;
+}
+
+
 a {
     text-decoration: none;
     color: inherit;
 }
+
+
+p {
+    margin: 0;
+}
+
 
 ul {
     list-style: none;
